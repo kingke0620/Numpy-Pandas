@@ -11,7 +11,7 @@ print(c)
 
 #矩阵运算
 d = np.array([[1,1],[0,1]])
-e = np.arange(4).reshape((2,2))
+e = np.arange(4).reshape((2,2))#reshape重新编辑原数组的行列
 f = d*e#对应位置的点乘
 f_dot = np.dot(d,e)#矩阵乘法，dot->内积
 #f_dot = d.dot(e)
